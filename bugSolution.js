@@ -1,0 +1,2 @@
+In `app.json` or `expo.json`, ensure that the `minSdkVersion` (for Android) and `ios.supportsTablet` (for iOS)  are set correctly and compatible with your testing environments.  If you are targeting older devices, increase the minimum version to match your testing environment. 
+Additionally, check for incorrect configuration of dependencies or other settings that might conflict with the specific device or simulator you are using. A thorough examination of the Expo CLI's logs might reveal the cause. Always consult the Expo documentation for platform-specific requirements.
